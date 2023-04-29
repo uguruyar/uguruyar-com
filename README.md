@@ -1,2 +1,2 @@
-# uguruyarcom
+# uguruyar.com
 Personal Site

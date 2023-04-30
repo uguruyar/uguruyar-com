@@ -4,10 +4,17 @@ export default function Header() {
   return (
     <header className="site-container py-6">
       <nav className="space-x-4">
-        <Link href="/">About</Link>
-        <Link href="/blog">Blogs</Link>
-        <Link href="/sp1">Sample Page 1</Link>
-        <Link href="/sp2">Sample Page 2</Link>
+        <div>
+          <Link href="/">Uğur Uyar</Link>
+        </div>
+        <div className="space-x-4">
+          <Link href="/">Home</Link>
+          <Link href="/about">About Me</Link>
+          <Link href="/blog">Blogs</Link>
+          <Link href="/bookmarks">Bookmarks</Link>
+          <Link href="/portfolio">Portfolio</Link>
+          <Link href="/contact">Contact</Link>
+        </div>
       </nav>
     </header>
   )

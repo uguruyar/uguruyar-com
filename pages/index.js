@@ -23,7 +23,7 @@ function HomePage() {
           </p>
         </div>
       </div>
-      <div className="max-w-4xl mx-auto mt-12">
+      <div className="site-4xl-container mt-20">
         <img src="/bb8.jpg" alt="BB8" />
       </div>
     </>
